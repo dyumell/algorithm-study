@@ -1,10 +1,15 @@
 package boj;
 
-import java.util.Date;
+
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class BOJ10699 {
     public static void solve() {
-        Date date = new Date();
-
+        ZonedDateTime now = ZonedDateTime.now(ZoneId.of("Asia/Seoul"));
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        String formattedDate = now.format(formatter);
+        System.out.println(formattedDate);
     }
-}
+}   
