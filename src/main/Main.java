@@ -12,6 +12,6 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        LC1071.solve();
+        LC1071.test();
     }
 }
