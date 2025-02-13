@@ -1,19 +1,15 @@
 package main;
 
-import boj.*;
-import boj.반복.*;
-import boj.조건문.BOJ14681;
-import boj.조건문.BOJ2753;
-import boj.조건문.BOJ9498;
-import leetcode.LC1071;
-import leetcode.LC1732;
-import leetcode.LC1768;
-import leetcode.LC933;
+import boj.문자열.BOJ2743;
+import boj.문자열.BOJ2744;
+import boj.문자열.BOJ2754;
+import boj.문자열.BOJ27866;
+import boj.배열.BOJ10871;
 
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        LC933.solve();
+        BOJ10871.solve();
     }
 }
