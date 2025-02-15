@@ -1,17 +1,12 @@
 package main;
 
-import boj.문자열.BOJ2743;
-import boj.문자열.BOJ2744;
-import boj.문자열.BOJ2754;
-import boj.문자열.BOJ27866;
-import boj.배열.BOJ10871;
-import boj.배열.BOJ2438;
-import boj.입출력기초.BOJ11382;
+import boj.브론즈.문자열.BOJ2439;
+import boj.새싹.배열.BOJ2738;
 
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BOJ2438.solve();
+        BOJ2439.solve();
     }
 }
