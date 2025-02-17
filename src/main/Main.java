@@ -6,6 +6,6 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BOJ2675.solve();
+        BOJ1152.solve();
     }
 }

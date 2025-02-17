@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class BOJ2675 {
-    public static void solve() throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();;
         int n = Integer.parseInt(br.readLine());
@@ -19,8 +19,9 @@ public class BOJ2675 {
             str[i] = st.nextToken();
 
             for(int j=0 ; j < str[i].length();j++) {
-                sb.append(String.valueOf(str[i].charAt(i)).repeat(length[i]));
+                sb.append(String.valueOf(str[i].charAt(j)).repeat(length[i]));
             }
+            sb.append("\n");
         }
         System.out.println(sb);
     }
