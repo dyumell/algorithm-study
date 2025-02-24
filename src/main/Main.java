@@ -1,11 +1,13 @@
 package main;
 
-import boj.브론즈.문자열.*;
-
 import java.io.IOException;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BOJ1152.solve();
+        boolean[] result = new boolean[30];
+        Arrays.fill(result,true);
+
+        System.out.println(Arrays.toString(result));
     }
 }
